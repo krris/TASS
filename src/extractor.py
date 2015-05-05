@@ -72,7 +72,9 @@ def read_file(filename):
 
 
 def main():
-    for user_id in range(100000, 110000) + range(200000, 210000):
+    start_user_id = 100000
+    end_user_id = 100500
+    for user_id in range(start_user_id, end_user_id):
         # dict which will be insert into DB
         user_data = {}
 
