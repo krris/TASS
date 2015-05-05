@@ -11,7 +11,8 @@ Mapa przedstawia ile osób przyczytało książki Terrego Prachetta (i zarazem w
 ```
 my_username = 'YOUR_MAIL@mail.com'
 my_password = 'YOUR_PASSWORD'
-```Następnie uruchom: ```$ python collector.py```. Pobrane strony internetowe zostaną ściągniete do folderu data/.
+```
+Następnie uruchom: ```$ python collector.py```. Pobrane strony internetowe zostaną ściągniete do folderu data/.
 * Aby wyekstrahować wymagane dane uruchom ```$ python extractor.py```. Wymagane jest wcześniejsze postawienie bazy danych MongoDB.
 * Aby wyszukać ile osób z danego miasta przeczytało daną książkę użyj przykładowych poleceń:
 ```
